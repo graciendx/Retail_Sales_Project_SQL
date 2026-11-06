@@ -1,0 +1,78 @@
+{
+  "author": "Grace Ngo",
+  "source_rows": 2000,
+  "eligible_transactions": 1997,
+  "excluded_transactions": 3,
+  "exclusion_counts": {
+    "missing or invalid revenue inputs": 3
+  },
+  "missing_age_rows_retained": 10,
+  "customer_ids_with_conflicting_profiles": 155,
+  "customer_ids_with_conflicting_gender": 151,
+  "annual": [
+    {
+      "year": "2022",
+      "transactions": 976,
+      "units": 2464,
+      "revenue": 452825.0,
+      "average_transaction_value": 463.9600409836066,
+      "revenue_growth": null,
+      "transaction_growth": null
+    },
+    {
+      "year": "2023",
+      "transactions": 1021,
+      "units": 2554,
+      "revenue": 458895.0,
+      "average_transaction_value": 449.4564152791381,
+      "revenue_growth": 0.01340473692927735,
+      "transaction_growth": 0.04610655737704916
+    }
+  ],
+  "category_growth_bridge": [
+    {
+      "category": "Clothing",
+      "prior_year": "2022",
+      "year": "2023",
+      "prior_transactions": 333,
+      "transactions": 368,
+      "prior_revenue": 149855.0,
+      "revenue": 161215.0,
+      "revenue_change": 11360.0,
+      "volume_contribution": 15541.73694754537,
+      "ticket_value_contribution": -4181.736947545365
+    },
+    {
+      "category": "Electronics",
+      "prior_year": "2022",
+      "year": "2023",
+      "prior_transactions": 331,
+      "transactions": 353,
+      "prior_revenue": 151460.0,
+      "revenue": 162350.0,
+      "revenue_change": 10890.0,
+      "volume_contribution": 10092.479053088333,
+      "ticket_value_contribution": 797.5209469116702
+    },
+    {
+      "category": "Beauty",
+      "prior_year": "2022",
+      "year": "2023",
+      "prior_transactions": 312,
+      "transactions": 300,
+      "prior_revenue": 151510.0,
+      "revenue": 135330.0,
+      "revenue_change": -16180.0,
+      "volume_contribution": -5620.253846153846,
+      "ticket_value_contribution": -10559.746153846148
+    }
+  ],
+  "source_sha256": "e03ae6960a36b4e7528ca6948c0d434655a8fcfa0964888a04bacc8f0b8c2822",
+  "sqlite_version": "3.53.1",
+  "limitations": [
+    "Tutorial dataset; real retailer, currency, sampling method and license not documented.",
+    "Customer IDs cannot support reliable retention or demographic targeting.",
+    "COGS unit basis is unknown; profit and margin are not estimated.",
+    "Revenue is observed sample sales; no uplift or causal business impact is claimed."
+  ]
+}
